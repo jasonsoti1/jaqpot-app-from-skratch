@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "jaqpot-app-from-scratch": {
+      "description": "Schematic to create a Jaqpot-based Web app in a second.",
+      "factory": "./jaqpot-app-from-scratch/index#jaqpotAppFromScratch",
+      "schema": "./jaqpot-app-from-scratch/schema.json"
+    },
+    "ng-add": {
+      "description": "Schematic to create a Jaqpot-based Web app in a second.",
+      "factory": "./ng-add/index",
+      "schema": "./jaqpot-app-from-scratch/schema.json"
+    }
+  }
+}

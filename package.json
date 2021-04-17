@@ -1,0 +1,54 @@
+{
+  "name": "jaqpot-app-from-scratch",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "A blank schematics",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "//": "...",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonsoti1/jaqpot-app-from-skratch.git"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "files": [
+    "/dist"
+  ],
+  "author": "Jason Sotiropoulos",
+  "bugs": {
+    "url": "https://github.com/jasonsoti1/jaqpot-app-from-skratch/issues"
+  },
+  "homepage": "https://github.com/jasonsoti1/jaqpot-app-from-skratch#readme",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular/animations": "^11.0.9",
+    "@angular/cdk": "^11.2.7",
+    "@angular/common": "~11.0.1",
+    "@angular/compiler": "~11.0.1",
+    "@angular/core": "~11.0.1",
+    "@angular/flex-layout": "^11.0.0-beta.33",
+    "@angular/forms": "^11.0.9",
+    "@angular/material": "^11.2.7",
+    "@angular/platform-browser": "~11.0.1",
+    "@angular/platform-browser-dynamic": "~11.0.1",
+    "@angular/router": "~11.0.1",
+    "@euclia/jaqpot-client": "^1.0.4",
+    "angular-auth-oidc-client": "^11.6.4",
+    "material-design-icons": "^3.0.1",
+    "oidc-client": "^1.11.5",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.0.0",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "@types/jasmine": "~3.5.0",
+    "jasmine": "^3.5.0"
+  }
+}
